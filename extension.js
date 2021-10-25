@@ -26,7 +26,6 @@ module.exports = new Extension({
             debug('Artwork config: ', custom_opts);
             var command = 'FBpyGIF',
                 default_opts = {
-                    '--fill': 'screen'     // fill the entire screen (other options: 'image', 'width', 'height');
                 },
                 opts,
                 key;
