@@ -1,0 +1,38 @@
+{
+  "name": "openframe-gif",
+  "version": "0.1.0",
+  "description": "Openframe extension which adds support for animated GIFs via FBpyGIF.",
+  "main": "extension.js",
+  "scripts": {
+    "install": "./install.sh",
+    "uninstall": "./uninstall.sh"
+  },
+  "keywords": [
+    "openframe",
+    "extension",
+    "format",
+    "openframe-extension",
+    "openframe-gif"
+  ],
+  "author": {
+    "name": "Matthias Aebi",
+    "url": "https://github.com/mataebi"
+  },
+  "contributors": [
+    {
+      "name": "Jonathan Wohl",
+      "url": "http://jonathanwohl.com"
+    }
+  ],
+  "license": "Apache-2.0",
+  "devDependencies": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mataebi/Openframe-GifViewer"
+  },
+  "dependencies": {
+    "openframe-extension": "^0.1.0",
+    "debug": "^2.2.0"
+  }
+}
