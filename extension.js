@@ -1,5 +1,5 @@
 var pjson = require('./package.json'),
-    debug = require('debug')('openframe:image'),
+    debug = require('debug')('openframe:gif'),
     Extension = require('openframe-extension');
 
 /**
